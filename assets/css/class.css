@@ -1,0 +1,39 @@
+a,
+h1,
+.white-text{
+    color:white
+}
+.white{
+    background:white;
+}
+
+
+h2,
+.dark-text{
+    color:#2c3e50;
+}
+.dark-blue{
+    background:#2c3e50;
+}
+.extra-dark-blue{
+    background: #1a252f;
+}
+
+.aqua-text{
+    color:#1abc9c;
+}
+.aqua{
+    background:#1abc9c;
+}
+.line-md{
+display: inline-block;
+height:4px;
+width:150px;
+}
+
+.img-block{
+    display: block;
+    max-width: 100%;
+    border-radius: 8px;
+
+}
