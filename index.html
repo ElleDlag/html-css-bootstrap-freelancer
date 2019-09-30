@@ -2,31 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-    width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Freelancer rebuild</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    <link rel="stylesheet" href="assets/css/class.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
 </head>
 <body>
     <!-- navbar -->
-    <nav id="navigation">
+    <nav id="navigation" class="navbar navbar-fixed-top dark-blue">
         <div class="container-fluid navigation">
             <div class="row">
-                <div class="col-lg-4 color_1"></div>
-                <div class="col-lg-offset-4 col-lg-4 color_2"></div>
+                <div class="col-lg-4 test">
+                    <a href="" class="navbar-brand">
+                        Start Bootstrap
+                    </a>
+                </div>
+                <div class="col-lg-offset-4 col-lg-4 test">
+                    <ul class="clearfix nav">
+                            <li class="active"><a href="#">Portfolio</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
 
 
     <!-- main -->
-    <main id="main">
+    <main id="main" class="aqua">
         <header>
             <div class="container-fluid header">
                 <div class="row">
-                    <div class="col-lg-12 color_3"></div>
+                    <div class="col-lg-12">
+                        <img src="assets/img/avataaars.svg" alt="avatar">
+                        <h1>start bootstrap</h1>
+                        <span class="line-md white"></span><i class="fas fa-star white-text"></i><span class="line-md white"></span>
+                        <p class="white-text">Graphic Artist - Web Designer - Illustrator</p>
+                    </div>
                 </div> 
             </div> 
         </header>    
@@ -37,19 +54,33 @@
     <section id="portoflio">
         <div class="container-fluid portfolio">
             <div class="row">
-                <div class="col-lg-12 color_4">
+                <div class="col-lg-12">
+                    <h2 class="dark-text">PORTFOLIO</h2>
+                    <span class="line-md dark-blue"></span><i class="fas fa-star dark-text"></i><span class="line-md dark-blue"></span>
                     <div class="container ">
                         <div class="row">
-                            <div class="col-lg-4 color_2 test"></div>
-                            <div class="col-lg-4 color_1 test"></div>
-                            <div class="col-lg-4 color_2 test"></div>
+                            <div class="col-lg-4 test">
+                                <img src="assets/img/cabin.png" alt="" class="img-block">
+                            </div>
+                            <div class="col-lg-4  test">
+                                <img src="assets/img/cake.png" alt="" class="img-block">
+                            </div>
+                            <div class="col-lg-4  test">
+                                <img src="assets/img/circus.png" alt="" class="img-block">
+                            </div>
                         </div> 
                     </div>
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-4 color_1 test"></div>
-                            <div class="col-lg-4 color_2 test"></div>
-                            <div class="col-lg-4 color_1 test"></div>
+                            <div class="col-lg-4 test">
+                                <img src="assets/img/game.png" alt="" class="img-block">
+                            </div>
+                            <div class="col-lg-4 test">
+                                <img src="assets/img/safe.png" alt="" class="img-block">
+                            </div>
+                            <div class="col-lg-4 test">
+                                <img src="assets/img/submarine.png" alt="" class="img-block">
+                            </div>
                         </div>
                     </div>
                 </div>  
@@ -59,12 +90,25 @@
 
 
     <!-- about section -->
-    <section id="about">
+    <section id="about" class="aqua">
+            <h2 class="white-text">ABOUT</h2>
+            <span class="line-md white"></span><i class="fas fa-star white-text"></i><span class="line-md white"></span>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-12 color_3"></div> 
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-offset-3 col-lg-3 white-text">
+                                Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
+                            </div>
+                            <div class="col-lg-3 white-text">
+                                You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+                            </div>
+                        </div>
+                    </div> 
                 </div> 
             </div>
+            <a href="#" class="btn btn-lg btn-default">
+                <i class="fas fa-download"></i> Free download</a>
     </section>
 
 
