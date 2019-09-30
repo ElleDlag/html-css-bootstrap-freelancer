@@ -22,12 +22,20 @@
 /* #endregion */
 
 
-
+body{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+}
 .navbar-brand{
     height:auto
 }
 nav .nav>li{
     float: left;
+}
+a.navbar-brand{
+    font-size: 2.8rem;
+    font-weight: 700
 }
 
 #main{
@@ -36,4 +44,80 @@ nav .nav>li{
 }
 #main img{
     max-width:240px
+}
+#main  p{
+    font-size:2.4rem
+}
+#about  p{
+    text-align: left;
+}
+
+#portfolio .img-block{
+    width:350px
+}
+#portfolio img{
+    width:100%;
+}
+#about .btn-about{
+    background: none;
+    border:2px solid white;
+    font-family: "Lato", sans-serif;
+    font-size: 2rem;
+    text-transform: initial;
+}
+#contact{
+    padding-bottom:96px
+}
+#contact button{
+    padding:1.6rem 2.8rem;
+    font-size: 2rem;
+    font-family: "Lato", sans-serif;
+}
+#contact .btn-group{
+    width:100%;
+    text-align: left;
+    border: none;
+    margin:15px 0;
+    }
+#contact .btn{
+    box-shadow: none;
+    border: none
+    }
+
+#footer{
+    padding-top:80px;
+}
+#footer .max-footer{
+        max-width:1140px
+}
+#footer a{
+    text-transform: initial;
+    font-size: 2rem
+}
+#footer .cr-content{
+    margin-top: 80px;
+}
+#footer .copyright{
+    font-size: 1.28rem;
+    font-family: "Lato", sans-serif;
+    padding: 24px 0;
+}
+
+
+
+
+
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    .col-sm-6{
+        width: 33.33333333%
+    }
+    #portfolio .img-block{
+        width:290px
+    }
+}
+@media screen and (max-width:991px){
+    #portfolio .img-block{
+        width:330px;
+    }
 }
