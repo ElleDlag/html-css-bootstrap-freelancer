@@ -1,0 +1,20 @@
+
+.color_1{
+    background: rgb(238, 184, 164)
+}
+.color_2{
+    background: rgb(172, 229, 247)
+}
+.color_3{
+    background: rgb(205, 248, 188)
+}
+.color_4{
+    background: rgb(245, 131, 255)
+}
+
+[class^="col-"]:not(.test){
+    height:200px
+}
+.test{
+    height:100px
+}
