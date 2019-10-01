@@ -27,36 +27,59 @@ body{
     font-family: "Montserrat", sans-serif;
     font-size: 10px;
 }
+.star-content{
+    margin:20px 0 24px;
+    padding:8px
+}
+
+/* #region  navbar */
+#navigation{
+    padding: 24px 16px;
+    margin-bottom: 0;
+}
 .navbar-brand{
     height:auto
 }
 nav .nav>li{
     float: left;
 }
+nav .nav>li a{
+    padding:16px
+}
 a.navbar-brand{
     font-size: 2.8rem;
     font-weight: 700
 }
+/* #endregion */
 
+
+
+/* #region  MAIN + HEADER */
 #main{
     margin-top: 100px;
-    height:500px
+    padding:100px ;
 }
 #main img{
-    max-width:240px
+    max-width:240px;
+    margin-bottom:48px;
 }
 #main  p{
     font-size:2.4rem
 }
-#about  p{
-    text-align: left;
-}
+/* #endregion */
 
+
+
+/* #region  PORTFOLIO */
+#portfolio{
+    padding: 96px 0;
+}
 #portfolio .img-block{
-    width:350px
+    width:350px;
+    margin-bottom:30px
 }
 #portfolio img{
-    width:100%;
+    max-width:100%;
 }
 #about .btn-about{
     background: none;
@@ -65,6 +88,19 @@ a.navbar-brand{
     font-size: 2rem;
     text-transform: initial;
 }
+/* #endregion */
+
+
+
+/* #region  ABOUT */
+#about  p{
+    text-align: left;
+}
+/* #endregion */
+
+
+
+/* #region  CONTACT */
 #contact{
     padding-bottom:96px
 }
@@ -82,8 +118,13 @@ a.navbar-brand{
 #contact .btn{
     box-shadow: none;
     border: none
-    }
+}
+/* #endregion */
 
+
+
+
+/* #region  FOOTER */
 #footer{
     padding-top:80px;
 }
@@ -102,8 +143,7 @@ a.navbar-brand{
     font-family: "Lato", sans-serif;
     padding: 24px 0;
 }
-
-
+/* #endregion */
 
 
 

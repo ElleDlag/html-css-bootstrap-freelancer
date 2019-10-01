@@ -39,8 +39,8 @@ position: absolute;
 top:50%;
 left:50%;
 transform: translate(-50%,-50%);
-width:90%;
-height: 6px;
+width:80%;
+height: 4px;
 background: white;
 border-radius: 3px;
 }
@@ -51,11 +51,16 @@ border-radius: 3px;
 a,h1{
     text-transform: uppercase;
 }
+h1,h2,h3{
+    margin:0;
+    padding:0
+}
 h1,h2,h3,a{
     font-weight: 700;
 }
 h1{
     font-size: 6.4rem;
+    line-height:5.6rem
 }
 h2{
     font-size: 4.8rem;
