@@ -1,4 +1,7 @@
 
+html{
+    scroll-behavior: smooth;
+}
 body{
     text-align: center;
     font-family: "Montserrat", sans-serif;
@@ -8,6 +11,10 @@ body{
     margin:20px 0 24px;
     padding:8px
 }
+/* .container{
+    border:1px solid red
+} */
+
 
 /* #region  navbar */
 #navigation{
@@ -36,6 +43,9 @@ a.navbar-brand{
 }
 a.navbar-brand:hover{
     color: white
+}
+#navigation .hamburger{
+    display: none;
 }
 /* #endregion */
 
@@ -184,6 +194,12 @@ a.navbar-brand:hover{
     .container {
         max-width: 1170px;
     }
+    #navigation .col-lg-4.brand{
+        width:calc((100% / 12)*5);
+    }
+    #navigation .col-lg-4.list{
+        margin-left:calc((100% / 12)*7);
+    }
     #main  p{
         font-size:2.4rem
     }
@@ -201,6 +217,52 @@ a.navbar-brand:hover{
 @media screen and (max-width:991px){
     a.navbar-brand{
         font-size: 2rem;
+    }
+    #navigation .col-lg-4{
+        overflow: hidden;
+    }
+    #navigation .col-lg-4.brand{
+        width:calc((100% / 12)*5);
+        float:left
+    }
+    #navigation .col-lg-4.list{
+        width:100%;
+        border-top:1px solid rgba(255, 255, 255, 0.5);
+        display:none;
+    }
+    #navigation ul{
+        padding:15px 0;
+    }
+    #navigation li{
+        width: 100%;
+    }
+    #navigation li a:hover{
+        border-radius: 0;
+    }
+    #navigation .row{
+        position: relative;
+    }
+     #navigation .hamburger-check{ 
+        font-family: "Montserrat", sans-serif;
+        position: absolute;
+        display: block;
+        top:0;
+        right:0;
+        padding:16px 24px;
+        font-size: 13px;
+        font-weight:700;
+        border-radius: 8px;
+    }
+    #navigation .hamburger:checked + #listtest{ 
+        display: block;
+        margin-top:80px;
+    }
+
+
+
+
+    #main{
+        margin-top:99px;
     }
     #portfolio .img-block{
         width:330px;
