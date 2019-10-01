@@ -115,7 +115,15 @@ input::placeholder{
 }
 .img-in-block,
 .img-block{
-
     border-radius: 8px;
     margin:auto
+}
+
+@media screen and (max-width:991px){
+    h1{
+        font-size: 4.4rem
+    }
+    h2{
+        font-size:3.2rem
+    }
 }
